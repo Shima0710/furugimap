@@ -1,0 +1,14 @@
+/* styles.css */
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* ビューポートの高さいっぱいに要素を配置 */
+    text-align: center; /* テキストを中央揃えにする */
+}
+
+.top-logo img {
+    max-width: 100%; /* 画像が親要素に合わせてサイズ調整されるようにする */
+}
